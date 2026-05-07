@@ -1,0 +1,33 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/core",
+    "crates/korbin"
+]
+default-members = [
+    "crates/core",
+    "crates/korbin"
+]
+
+[workspace.package]
+authors = ["Jesiel Emerim Schardosim <jesiel.es@gmail.com>"]
+description = "A scriptable text editor with native performance."
+edition = "2024"
+homepage = "https://korbin.io"
+license = "Apache-2.0"
+repository = "https://github.com/dev-el/korbin"
+readme = "README.md"
+version = "0.1.0"
+
+[workspace.dependencies]
+korbin_core = { path = "crates/core", version = "0.1.0" }
+korbin = { path = "crates/korbin", version = "0.1.0" }
+ropey = "1.6"
+roto = "0.10.0"
+codebook-tree-sitter-latex = "0.6.1"
+tree-sitter = "0.26.8"
+tree-sitter-highlight = "0.26.8"
+tree-sitter-rust = "0.24.2"
+tree-sitter-md = "0.5.3"
+ribir = "0.3.0"
+regex = "1.12.3"

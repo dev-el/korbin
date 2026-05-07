@@ -1,0 +1,19 @@
+[package]
+name = "korbin_core"
+description  = "The core package of korbin text editor."
+homepage     = { workspace = true }
+license      = { workspace = true }
+repository   = { workspace = true }
+version      = { workspace = true }
+authors      = { workspace = true }
+edition      = { workspace = true }
+
+[dependencies]
+ropey = { workspace = true }
+roto = { workspace = true }
+codebook-tree-sitter-latex = { workspace = true }
+tree-sitter = { workspace = true }
+tree-sitter-highlight = { workspace = true }
+tree-sitter-rust = { workspace = true }
+tree-sitter-md = { workspace = true }
+
