@@ -17,11 +17,11 @@ homepage = "https://korbin.io"
 license = "Apache-2.0"
 repository = "https://github.com/dev-el/korbin"
 readme = "README.md"
-version = "0.1.0"
+version = "0.1.1"
 
 [workspace.dependencies]
-korbin_core = { path = "crates/core", version = "0.1.0" }
-korbin = { path = "crates/korbin", version = "0.1.0" }
+korbin_core = { path = "crates/core", version = "0.1.1" }
+korbin = { path = "crates/korbin", version = "0.1.1" }
 ropey = "1.6"
 roto = "0.10.0"
 codebook-tree-sitter-latex = "0.6.1"
